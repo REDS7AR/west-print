@@ -3,7 +3,9 @@
     justify-content: center;
 }
 
-.home__ellipse--pink{
+.home__ellipse--pink::after{
+    content: "";
+    display: block;
     position: absolute;
     top: -266px;
     left: -119px;
