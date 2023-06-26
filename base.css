@@ -149,8 +149,13 @@ body{
 /* HEADER HOME */
 
 .header__home{
-    /* background-color: #ffb4b4; */
+    position: relative;
     margin-top: 258px;
+}
+
+.header__home--visit{
+    position: relative;
+    margin-top: 158px;
 }
 
 .home-text-wrapper{
